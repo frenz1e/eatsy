@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors.backgroundDef,
-    paddingTop: Platform.OS === 'ios' ? 24 : 0,
+    paddingTop: Platform.OS === 'ios' ? 24 : 24,
   },
 });
 
